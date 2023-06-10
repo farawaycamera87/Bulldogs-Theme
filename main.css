@@ -1621,6 +1621,10 @@
 .container-2McqkF .option-ayUoaq[aria-selected=true] {
   border-radius: var(--radius);
   background-color: var(--background-primary);
+{
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 .option-ayUoaq.user-1dKxvu .displayAvatar-3jNvaK {
   border-radius: var(--avatar-radius);
