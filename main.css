@@ -1627,6 +1627,8 @@
 }
 
 /* slide-in animations */
+@keyframes slide-in {
+  0% {
     opacity: 0;
     transform: translateX(50px);
   }
@@ -1637,7 +1639,6 @@
 }
 /* messages */
 [data-list-item-id*="chat-messages"]:not(:has([class*="contents"] [class*="isSending"])) {
-  animation: slide-in 0.2s;
 }
 [data-list-item-id*="chat-messages"]:has([class*="contents"] [class*="isSending"]) {
   visibility: hidden;
